@@ -11,9 +11,9 @@ import (
 const (
 	host     = "localhost" // Адрес сервера БД
 	port     = 5432        // Порт PostgreSQL
-	user     = "garun"     // Имя пользователя БД
-	password = "origami"   // Пароль пользователя
-	dbname   = "KursachDB" // Название базы данных
+	user     = "имя_пользователя"     // Имя пользователя БД
+	password = "пароль_от_БД"   // Пароль пользователя
+	dbname   = "Название_БД" // Название базы данных
 )
 
 // InitDB инициализирует подключение к PostgreSQL
